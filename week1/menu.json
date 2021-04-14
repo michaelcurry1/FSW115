@@ -1,0 +1,93 @@
+{
+    "menu":[
+        {
+            "appetizers":[
+                {
+                    "name":"french fries",
+                    "ingredients":[
+                        "potatoes","ketchup"
+                    ],"description":"fried"
+                },
+                {
+                    "name": "soup",
+                    "ingredients":[
+                        "potatoes","ketchup"
+                    ],"description":"fried"
+                }
+            ]
+        },
+        {
+            "cold sandwhiches":[
+                {
+                    "name":"ham and cheese",
+                    "ingredients":[
+                        "ham","cheese"
+                    ],"description":"cold"
+                },
+                {
+                    "name": "salami and cheese",
+                    "ingredients":[
+                        "salami","cheese"
+                    ],"description":"cold"
+                }
+
+            ]
+        },
+        {
+            "hot sandwhiches":[
+                {
+                    "name":"reuben",
+                    "ingredients":[
+                        "kraut","1000 island"
+                    ],"description":"fried"
+                },
+                {
+                    "name": "hamburger",
+                    "ingredients":[
+                        "cheese","ketchup"
+                    ],"description":"fried"
+                }
+
+            ]
+        },
+        {
+            "deserts":[
+                {
+                    "name":"ice cream",
+                    "ingredients":[
+                        "ice","milk"
+                    ],"description":"frozen"
+                },
+                {
+                    "name": "pie",
+                    "ingredients":[
+                        "apple","cherry"
+                    ],"description":"baked fresh"
+                }
+
+            ]
+        },
+        {
+            "drinks":[
+                {
+                    "name":"soda",
+                    "ingredients":[
+                        "root beer","coke"
+                    ],"description":"with ice"
+                },
+                {
+                    "name": "coffe",
+                    "ingredients":[
+                        "cream","sugar"
+                    ],"description":"best in town"
+                }
+
+            ]
+        },
+        {
+
+        }
+
+        
+    ]
+}
