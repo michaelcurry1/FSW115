@@ -7,7 +7,8 @@ axios.get(" http://api.bryanuniversity.edu/mike_curry/list/")
     for(let i = 0; i < response.data.length; i++)
         var h1 = document.createElement('h1')
         console.log('h1')
-    }
+      if()
+    })
 
 
-}  
+  
