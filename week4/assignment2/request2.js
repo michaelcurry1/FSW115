@@ -1,14 +1,17 @@
 var button2 = document.getElementById("button2")
 
-function buttonClick2(){
 
+function buttonClick2(){
+   
     axios.get("https://swapi.dev/api/people/")
      .then(response =>{
-         for(let i = 0;i < response.data.length; i++){
-             console.log(response.data[i]._id)
+        console.log(response)
+         for(let i = 0;i < response.data.results.length; i++){
+             console.log(response.data.results[i].name)
              const h1 = document.createElement("h1")
-             h1.textContent = response.data[i]._id
+             h1.textContent = response.data.results[i].name
              document.body.appendChild(h1)
+            //  document.body.style.backgroundColor = "blue"
         }
     })
     .catch(error => console.log(error))
