@@ -1,6 +1,17 @@
-axios.get("http://api.bryanuniversity.edu/mike_curry/list/")
-axios.get("https://swapi.dev/api/people/1/")
+var button1 = document.getElementById("button1")
 
 
-var button1 = document.getElementById(button1)
-var button2 = document.getElementById(button2)
+function buttonClick1(){
+    axios.get("http://api.bryanuniversity.edu/mike_curry/list/")
+    .then(response =>{
+        for(let i = 0;i < response.data.length; i++){
+            console.log(response.data[i]._id)
+            const h1 = document.createElement("h1")
+            h1.textContent = response.data[i]._id
+            document.body.appendChild(h1)
+        }
+    }) 
+    .catch(error => console.log(error))
+}
+
+button1.addEventListener('click',buttonClick1)
