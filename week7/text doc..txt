@@ -1,0 +1,48 @@
+Week 7 Live Meeting:FSW115
+
+
+Here is my overview as I have watched final lecture..
+
+
+Scheduling. When execute function not right now.
+1. setTimeout-run after one interval.
+2.setInterval-runs function not only once,but regularly after given interval.  
+
+We went over syntax.
+
+About import. React.and API.get
+
+Why we need react and works well in mobile applicationsand no liscense fees.
+
+React is a language and very popular because of user interface.
+
+can build several modules.
+
+ALSO PERFORMANCE IS AMAZING.
+
+Can write HTML in same place as javascript.
+
+api example in react.
+
+The code on toDos.
+
+GET PUT POST DELETE
+
+Also expitations for week 8
+
+went over response object and how to install react
+
+Data AI summit 2021
+
+Mikey P Struggling with week 5 put and delete.
+
+
+
+
+
+
+
+
+
+
+
